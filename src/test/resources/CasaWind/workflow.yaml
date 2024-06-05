@@ -1,0 +1,376 @@
+---
+name: "CasaWind"
+dataIns:
+  - name: "input"
+    type: "string"
+    source: "input"
+workflowBody:
+  - function:
+      name: "unzip0"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip1"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip2"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip3"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip4"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip5"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip6"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip7"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip8"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip9"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip10"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip11"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip12"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip13"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip14"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip15"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip16"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip17"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip18"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip19"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip20"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip21"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip22"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip23"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "unzip24"
+      type: "unzip"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "CasaWind/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "max_velocity"
+      type: "max_velocity"
+      dataIns:
+        - name: "input0"
+          type: "string"
+          source: "unzip0/output"
+        - name: "input1"
+          type: "string"
+          source: "unzip1/output"
+        - name: "input2"
+          type: "string"
+          source: "unzip2/output"
+        - name: "input3"
+          type: "string"
+          source: "unzip3/output"
+        - name: "input4"
+          type: "string"
+          source: "unzip4/output"
+        - name: "input5"
+          type: "string"
+          source: "unzip5/output"
+        - name: "input6"
+          type: "string"
+          source: "unzip6/output"
+        - name: "input7"
+          type: "string"
+          source: "unzip7/output"
+        - name: "input8"
+          type: "string"
+          source: "unzip8/output"
+        - name: "input9"
+          type: "string"
+          source: "unzip9/output"
+        - name: "input10"
+          type: "string"
+          source: "unzip10/output"
+        - name: "input11"
+          type: "string"
+          source: "unzip11/output"
+        - name: "input12"
+          type: "string"
+          source: "unzip12/output"
+        - name: "input13"
+          type: "string"
+          source: "unzip13/output"
+        - name: "input14"
+          type: "string"
+          source: "unzip14/output"
+        - name: "input15"
+          type: "string"
+          source: "unzip15/output"
+        - name: "input16"
+          type: "string"
+          source: "unzip16/output"
+        - name: "input17"
+          type: "string"
+          source: "unzip17/output"
+        - name: "input18"
+          type: "string"
+          source: "unzip18/output"
+        - name: "input19"
+          type: "string"
+          source: "unzip19/output"
+        - name: "input20"
+          type: "string"
+          source: "unzip20/output"
+        - name: "input21"
+          type: "string"
+          source: "unzip21/output"
+        - name: "input22"
+          type: "string"
+          source: "unzip22/output"
+        - name: "input23"
+          type: "string"
+          source: "unzip23/output"
+        - name: "input24"
+          type: "string"
+          source: "unzip24/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "merged_netcfd2png"
+      type: "merged_netcfd2png"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "max_velocity/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mvt"
+      type: "mvt"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "max_velocity/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "pointalert"
+      type: "pointalert"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "mvt/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+dataOuts:
+  - name: "out1"
+    type: "string"
+    source: "pointalert/output"
+  - name: "out2"
+    type: "string"
+    source: "merged_netcfd2png/output"

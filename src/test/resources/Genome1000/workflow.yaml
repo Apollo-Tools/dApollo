@@ -1,0 +1,379 @@
+---
+name: "Genome1000"
+dataIns:
+  - name: "input"
+    type: "string"
+    source: "input"
+workflowBody:
+  - function:
+      name: "individuals0"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals1"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals2"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals3"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals4"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals5"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals6"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals7"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals8"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individuals9"
+      type: "individuals"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "sifting"
+      type: "sifting"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Genome1000/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "individualsMerge"
+      type: "individualsMerge"
+      dataIns:
+        - name: "input0"
+          type: "string"
+          source: "individuals0/output"
+        - name: "input1"
+          type: "string"
+          source: "individuals1/output"
+        - name: "input2"
+          type: "string"
+          source: "individuals2/output"
+        - name: "input3"
+          type: "string"
+          source: "individuals3/output"
+        - name: "input4"
+          type: "string"
+          source: "individuals4/output"
+        - name: "input5"
+          type: "string"
+          source: "individuals5/output"
+        - name: "input6"
+          type: "string"
+          source: "individuals6/output"
+        - name: "input7"
+          type: "string"
+          source: "individuals7/output"
+        - name: "input8"
+          type: "string"
+          source: "individuals8/output"
+        - name: "input9"
+          type: "string"
+          source: "individuals9/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapEUR"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapAFR"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapEAS"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapALL"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapGBR"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapSAS"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mutOverlapAMR"
+      type: "mutOverlap"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyEUR"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyAFR"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyEAS"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyALL"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyGBR"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencySAS"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "frequencyAMR"
+      type: "frequency"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "individualsMerge/output"
+        - name: "input"
+          type: "string"
+          source: "sifting/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+dataOuts:
+  - name: "out0"
+    type: "string"
+    source: "mutOverlapEUR/output"
+  - name: "out1"
+    type: "string"
+    source: "mutOverlapAFR/output"
+  - name: "out2"
+    type: "string"
+    source: "mutOverlapEAS/output"
+  - name: "out3"
+    type: "string"
+    source: "mutOverlapALL/output"
+  - name: "out4"
+    type: "string"
+    source: "mutOverlapGBR/output"
+  - name: "out5"
+    type: "string"
+    source: "mutOverlapSAS/output"
+  - name: "out6"
+    type: "string"
+    source: "mutOverlapAMR/output"
+  - name: "out7"
+    type: "string"
+    source: "frequencyEUR/output"
+  - name: "out8"
+    type: "string"
+    source: "frequencyAFR/output"
+  - name: "out9"
+    type: "string"
+    source: "frequencyEAS/output"
+  - name: "out10"
+    type: "string"
+    source: "frequencyALL/output"
+  - name: "out11"
+    type: "string"
+    source: "frequencyGBR/output"
+  - name: "out12"
+    type: "string"
+    source: "frequencySAS/output"
+  - name: "out13"
+    type: "string"
+    source: "frequencyAMR/output"

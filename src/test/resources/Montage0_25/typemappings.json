@@ -1,0 +1,121 @@
+[
+  {
+    "functionType": "mProjectPP",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge1"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud1"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mDiffFit",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mDiffFit",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mConcatFit",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge3"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud3"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mBgModel",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge4"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud4"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mBackground",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge5"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud5"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mImgShrinkJPEG",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge6"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud6"
+        }
+      }
+    ]
+  }
+]

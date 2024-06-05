@@ -1,0 +1,472 @@
+{
+  "costLimit": 0.011756362339,
+  "locationRS": "edge",
+  "tasks": [
+    {
+      "id": "individuals0",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals1",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals2",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals3",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals4",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals5",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals6",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals7",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals8",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "individuals9",
+      "inputMB": 14.6,
+      "outputMB": 0.1052,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 19.32
+        },
+        {
+          "id": "cloud1",
+          "runtime": 9.66
+        }
+      ]
+    },
+    {
+      "id": "sifting",
+      "inputMB": 0.0,
+      "outputMB": 0.3652,
+      "resourceTypes": [
+        {
+          "id": "edge2",
+          "runtime": 6.15
+        },
+        {
+          "id": "cloud2",
+          "runtime": 3.08
+        }
+      ]
+    },
+    {
+      "id": "individualsMerge",
+      "inputMB": 0.1253,
+      "outputMB": 1.5575,
+      "resourceTypes": [
+        {
+          "id": "edge3",
+          "runtime": 6.87
+        },
+        {
+          "id": "cloud3",
+          "runtime": 3.43
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapEUR",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapAFR",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapEAS",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapALL",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapGBR",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapSAS",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "mutOverlapAMR",
+      "inputMB": 1.9609,
+      "outputMB": 0.0315,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 41.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 20.52
+        }
+      ]
+    },
+    {
+      "id": "frequencyEUR",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencyAFR",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencyEAS",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencyALL",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencyGBR",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencySAS",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    },
+    {
+      "id": "frequencyAMR",
+      "inputMB": 1.9609,
+      "outputMB": 0.081,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 6.26
+        },
+        {
+          "id": "cloud5",
+          "runtime": 3.13
+        }
+      ]
+    }
+  ],
+  "taskResourceTypes": [
+    {
+      "id": "edge1",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge2",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge3",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge4",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge5",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud1",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud2",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud3",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud4",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud5",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ],
+  "RSResourceTypes": [
+    {
+      "id": "edge",
+      "costPerHour": 0.002,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud",
+      "costPerHour": 0.1,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "functionType": "preprocess",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge1"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud1"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "load",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "validate",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge3"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud3"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "end",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge4"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud4"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+apply plugin: 'jacoco'
+// for compliance with higher Java versions
+jacoco {
+  toolVersion = "0.8.5"
+}
+
+
+repositories {
+  mavenCentral()
+  maven { url "https://jitpack.io" }
+}
+
+dependencies {
+  // dependencies to Apollo repositories
+  if (project.hasProperty("local")) {
+    implementation project (':EE-Core')
+    implementation project (':EE-Guice')
+    implementation project (':EE-Model')
+    implementation project (':EE-Enactables')
+    implementation project (':EE-IO')
+  }else {
+    implementation 'com.github.Apollo-Core:EE-Model:main-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Core:master-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Enactables:master-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-Guice:main-SNAPSHOT'
+    implementation 'com.github.Apollo-Core:EE-IO:main-SNAPSHOT'
+  }
+
+  // dependency to Opt4J
+  implementation 'com.github.FedorSmirnov89:opt4j:master'
+  // dependency to opendse
+  implementation 'com.github.FedorSmirnov89:opendse:master-SNAPSHOT'
+  implementation 'com.google.code.gson:gson:2.8.6'
+
+  // VertX
+  implementation 'io.vertx:vertx-core:4.1.0'
+
+
+  // test dependencies
+  testImplementation(platform('org.junit:junit-bom:5.7.2'))
+  testImplementation('org.junit.jupiter:junit-jupiter')
+  testCompile group: 'org.mockito',     name: 'mockito-core',     version: '3.4.4'
+  // dependency to local files
+  // compile files('libs/lib.jar')
+}
+
+java {
+  withSourcesJar()
+}
+
+publishing {
+  publications {
+    maven(MavenPublication) {
+      from components.java
+    }
+  }
+}
+
+if (rootProject == project) {
+  wrapper {
+    gradleVersion = "6.8.3"
+    distributionType = Wrapper.DistributionType.ALL
+  }
+}
+
+test {
+  useJUnitPlatform()
+}
+
+jacocoTestReport {
+  reports {
+    xml.enabled true
+  }
+  afterEvaluate {
+    classDirectories.from = files(classDirectories.files.collect {
+      fileTree(dir: it, exclude: '**/modules/**')
+    })
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "costLimit": 0.002222589,
+  "locationRS": "edge",
+  "tasks": [
+    {
+      "id": "unzip0",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip1",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip2",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip3",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip4",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip5",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip6",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip7",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip8",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip9",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip10",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip11",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip12",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip13",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip14",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip15",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip16",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip17",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip18",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip19",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip20",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip21",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip22",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip23",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "unzip24",
+      "inputMB": 10.1,
+      "outputMB": 20.9,
+      "resourceTypes": [
+        {
+          "id": "edge1",
+          "runtime": 0.43
+        },
+        {
+          "id": "cloud1",
+          "runtime": 0.215
+        }
+      ]
+    },
+    {
+      "id": "max_velocity",
+      "inputMB": 534.47,
+      "outputMB": 0.56,
+      "resourceTypes": [
+        {
+          "id": "edge2",
+          "runtime": 0.89
+        },
+        {
+          "id": "cloud2",
+          "runtime": 0.445
+        }
+      ]
+    },
+    {
+      "id": "merged_netcfd2png",
+      "inputMB": 0.26,
+      "outputMB": 0.01,
+      "resourceTypes": [
+        {
+          "id": "edge3",
+          "runtime": 0.069
+        },
+        {
+          "id": "cloud3",
+          "runtime": 0.0345
+        }
+      ]
+    },
+    {
+      "id": "mvt",
+      "inputMB": 0.56,
+      "outputMB": 0.043,
+      "resourceTypes": [
+        {
+          "id": "edge4",
+          "runtime": 18.03
+        },
+        {
+          "id": "cloud4",
+          "runtime": 9.015
+        }
+      ]
+    },
+    {
+      "id": "pointalert",
+      "inputMB": 0.064,
+      "outputMB": 0.021,
+      "resourceTypes": [
+        {
+          "id": "edge5",
+          "runtime": 0.008
+        },
+        {
+          "id": "cloud5",
+          "runtime": 0.008
+        }
+      ]
+    }
+  ],
+  "taskResourceTypes": [
+    {
+      "id": "edge1",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge2",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge3",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge4",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge5",
+      "costPerHour": 0.07,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud1",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud2",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud3",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud4",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud5",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ],
+  "RSResourceTypes": [
+    {
+      "id": "edge",
+      "costPerHour": 0.002,
+      "bandwidth": 100,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud",
+      "costPerHour": 0.1,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ]
+}

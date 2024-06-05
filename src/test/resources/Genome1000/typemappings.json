@@ -1,0 +1,87 @@
+[
+  {
+    "functionType": "individuals",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge1"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud1"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "sifting",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "individualsMerge",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge3"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud3"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mutOverlap",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge4"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud4"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "frequency",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge5"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud5"
+        }
+      }
+    ]
+  }
+]

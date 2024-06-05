@@ -1,0 +1,104 @@
+[
+  {
+    "functionType": "t1",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge1"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud1"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "t2",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "t3",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge3"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud3"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "t4",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge4"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud4"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "t5",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge5"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud5"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "t6",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge6"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud6"
+        }
+      }
+    ]
+  }
+]

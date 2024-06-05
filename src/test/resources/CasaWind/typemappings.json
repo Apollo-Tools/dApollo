@@ -1,0 +1,87 @@
+[
+  {
+    "functionType": "unzip",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge1"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud1"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "max_velocity",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge2"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud2"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "merged_netcfd2png",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge3"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud3"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "mvt",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge4"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud4"
+        }
+      }
+    ]
+  },
+  {
+    "functionType": "pointalert",
+    "resources": [
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "edge5"
+        }
+      },
+      {
+        "type": "Serverless",
+        "properties": {
+          "Uri": "cloud5"
+        }
+      }
+    ]
+  }
+]

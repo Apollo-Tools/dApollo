@@ -1,0 +1,77 @@
+---
+name: "IllustrativeExample"
+dataIns:
+  - name: "input"
+    type: "string"
+    source: "input"
+workflowBody:
+  - function:
+      name: "t1"
+      type: "t1"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "IllustrativeExample/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "t2"
+      type: "t2"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "t1/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "t3"
+      type: "t3"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "t1/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "t4"
+      type: "t4"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "t3/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "t5"
+      type: "t5"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "t3/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "t6"
+      type: "t6"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "t2/output"
+        - name: "input2"
+          type: "string"
+          source: "t4/output"
+        - name: "input2"
+          type: "string"
+          source: "t5/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+dataOuts:
+  - name: "out"
+    type: "string"
+    source: "t6/output"

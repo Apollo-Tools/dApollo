@@ -1,0 +1,637 @@
+---
+name: "Montage"
+dataIns:
+  - name: "input"
+    type: "string"
+    source: "input"
+workflowBody:
+  - function:
+      name: "mProjectPP0"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP1"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP2"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP3"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP4"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP5"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP6"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP7"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP8"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP9"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP10"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mProjectPP11"
+      type: "mProjectPP"
+      dataIns:
+        - name: "input"
+          type: "string"
+          source: "Montage/input"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit0"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP0/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP1/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit1"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP1/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP2/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit2"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP2/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP3/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit3"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP3/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP4/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit4"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP4/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP5/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit5"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP5/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP6/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit6"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP6/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP7/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit7"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP7/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP8/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit8"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP8/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP9/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit9"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP9/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP10/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit10"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP10/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP11/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit11"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP11/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP0/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit12"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP0/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP1/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit13"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP1/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP2/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit14"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP2/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP3/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit15"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP3/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP4/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit16"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP4/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP5/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit17"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP5/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP6/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit18"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP6/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP7/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit19"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP7/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP8/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mDiffFit20"
+      type: "mDiffFit"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mProjectPP8/output"
+        - name: "input2"
+          type: "string"
+          source: "mProjectPP9/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBgModel"
+      type: "mBgModel"
+      dataIns:
+        - name: "input0"
+          type: "string"
+          source: "mDiffFit0/output"
+        - name: "input1"
+          type: "string"
+          source: "mDiffFit1/output"
+        - name: "input2"
+          type: "string"
+          source: "mDiffFit2/output"
+        - name: "input3"
+          type: "string"
+          source: "mDiffFit3/output"
+        - name: "input4"
+          type: "string"
+          source: "mDiffFit4/output"
+        - name: "input5"
+          type: "string"
+          source: "mDiffFit5/output"
+        - name: "input6"
+          type: "string"
+          source: "mDiffFit6/output"
+        - name: "input7"
+          type: "string"
+          source: "mDiffFit7/output"
+        - name: "input8"
+          type: "string"
+          source: "mDiffFit8/output"
+        - name: "input9"
+          type: "string"
+          source: "mDiffFit9/output"
+        - name: "input10"
+          type: "string"
+          source: "mDiffFit10/output"
+        - name: "input11"
+          type: "string"
+          source: "mDiffFit11/output"
+        - name: "input12"
+          type: "string"
+          source: "mDiffFit12/output"
+        - name: "input13"
+          type: "string"
+          source: "mDiffFit13/output"
+        - name: "input14"
+          type: "string"
+          source: "mDiffFit14/output"
+        - name: "input15"
+          type: "string"
+          source: "mDiffFit15/output"
+        - name: "input16"
+          type: "string"
+          source: "mDiffFit16/output"
+        - name: "input17"
+          type: "string"
+          source: "mDiffFit17/output"
+        - name: "input18"
+          type: "string"
+          source: "mDiffFit18/output"
+        - name: "input19"
+          type: "string"
+          source: "mDiffFit19/output"
+        - name: "input20"
+          type: "string"
+          source: "mDiffFit20/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground0"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground1"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground2"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground3"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground4"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground5"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground6"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground7"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground8"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground9"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground10"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mBackground11"
+      type: "mBackground"
+      dataIns:
+        - name: "input1"
+          type: "string"
+          source: "mBgModel/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+  - function:
+      name: "mImgShrinkJPEG"
+      type: "mImgShrinkJPEG"
+      dataIns:
+        - name: "input10"
+          type: "string"
+          source: "mBackground0/output"
+        - name: "input11"
+          type: "string"
+          source: "mBackground1/output"
+        - name: "input12"
+          type: "string"
+          source: "mBackground2/output"
+        - name: "input13"
+          type: "string"
+          source: "mBackground3/output"
+        - name: "input14"
+          type: "string"
+          source: "mBackground4/output"
+        - name: "input15"
+          type: "string"
+          source: "mBackground5/output"
+        - name: "input16"
+          type: "string"
+          source: "mBackground6/output"
+        - name: "input17"
+          type: "string"
+          source: "mBackground7/output"
+        - name: "input18"
+          type: "string"
+          source: "mBackground8/output"
+        - name: "input19"
+          type: "string"
+          source: "mBackground9/output"
+        - name: "input110"
+          type: "string"
+          source: "mBackground10/output"
+        - name: "input111"
+          type: "string"
+          source: "mBackground11/output"
+      dataOuts:
+        - name: "output"
+          type: "string"
+dataOuts:
+  - name: "out"
+    type: "string"
+    source: "mImgShrinkJPEG/output"

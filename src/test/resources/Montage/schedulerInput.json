@@ -1,0 +1,472 @@
+{
+  "costLimit": 0.239239,
+  "locationRS": "edge",
+  "tasks": [
+    {"id": "mProjectPP0", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP1", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP2", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP3", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP4", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP5", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP6", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP7", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP8", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP9", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP10", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP11", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP12", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP13", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP14", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP15", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP16", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP17", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP18", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP19", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP20", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP21", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP22", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP23", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP24", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP25", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP26", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP27", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP28", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP29", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP30", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP31", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP32", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP33", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP34", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP35", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP36", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP37", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP38", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP39", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP40", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP41", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP42", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP43", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]}
+  ,
+    {"id": "mProjectPP44", "inputMB": 4.03, "outputMB": 7.94, "resourceTypes": [{"id": "edge1", "runtime": 54.36}, {"id": "cloud1", "runtime": 27.18}]},
+    {"id": "mDiffFit0", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit1", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit2", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit3", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit4", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit5", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit6", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit7", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit8", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit9", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit10", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit11", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit12", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit13", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit14", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit15", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit16", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit17", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit18", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit19", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit20", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit21", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit22", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit23", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit24", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit25", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit26", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit27", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit28", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit29", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit30", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit31", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit32", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit33", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit34", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,{"id": "mDiffFit35", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit36", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit37", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit38", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit39", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit40", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit41", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit42", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit43", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit44", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit45", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit46", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit47", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit48", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit49", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit50", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit51", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit52", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit53", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit54", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]},
+    {"id": "mDiffFit55", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit56", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit57", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit58", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit59", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit60", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit61", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit62", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit63", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit64", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit65", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit66", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit67", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit68", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit69", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit70", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit71", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit72", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit73", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit74", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit75", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit76", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit77", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit78", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit79", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit80", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit81", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit82", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit83", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit84", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit85", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit86", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit87", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit88", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit89", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit90", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit91", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit92", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit93", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit94", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit95", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit96", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit97", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit98", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit99", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit100", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit101", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit102", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit103", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit104", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]}
+  ,
+    {"id": "mDiffFit105", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]},
+    {"id": "mDiffFit106", "inputMB": 15.88, "outputMB": 0.54, "resourceTypes": [{"id": "edge2", "runtime": 42.36}, {"id": "cloud2", "runtime": 21.18}]},
+    {"id": "mBgModel", "inputMB": 0.03, "outputMB": 0.02, "resourceTypes": [{"id": "edge3", "runtime": 97.92}, {"id": "cloud3", "runtime": 48.96}]},
+    {"id": "mBackground0", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground1", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground2", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground3", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground4", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground5", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground6", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground7", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground8", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground9", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground10", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground11", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground12", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground13", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground14", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground15", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground16", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground17", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground18", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground19", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground20", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground21", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground22", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground23", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground24", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground25", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground26", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground27", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground28", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground29", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground30", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground31", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground32", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground33", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground34", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground35", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground36", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground37", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground38", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground39", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground40", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground41", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground42", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground43", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]}
+  ,
+    {"id": "mBackground44", "inputMB": 7.95, "outputMB": 7.94, "resourceTypes": [{"id": "edge4", "runtime": 42.96}, {"id": "cloud4", "runtime": 21.48}]},
+    {"id": "mImgShrinkJPEG", "inputMB": 357.27, "outputMB": 0.32, "resourceTypes": [{"id": "edge5", "runtime": 257.0}, {"id": "cloud5", "runtime": 128.5}]}
+  ],
+  "taskResourceTypes": [
+    {
+      "id": "edge1",
+      "costPerHour": 0.07,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge2",
+      "costPerHour": 0.07,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge3",
+      "costPerHour": 0.07,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge4",
+      "costPerHour": 0.07,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "edge5",
+      "costPerHour": 0.07,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud1",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud2",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud3",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud4",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud5",
+      "costPerHour": 0.209,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ],
+  "RSResourceTypes": [
+    {
+      "id": "edge",
+      "costPerHour": 0.002,
+      "bandwidth": 2,
+      "acquisitionDelay": 0.06
+    },
+    {
+      "id": "cloud",
+      "costPerHour": 0.1,
+      "bandwidth": 30000.0,
+      "acquisitionDelay": 0.06
+    }
+  ]
+}
